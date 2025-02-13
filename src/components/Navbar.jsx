@@ -84,9 +84,16 @@ const Navbar = () => {
             </Link>
           </nav>
 
-          <div className=" hidden lg:flex">
-            <Button title="Login" />
+          <div className=" px-6 py-1 border-white bg-[#16f406] hover:text-[#5bc936] transition-all rounded-full">
+            <a href="https://api.whatsapp.com/send/?phone=18981142927&text=Quero%20fazer%20um%20agendamento%20hoje" 
+               target="_blank"
+            >
+            <button title="Whatsapp">Whatsapp</button>
+            </a>
           </div>
+
+
+
 
           <div className="md:hidden flex items-center">
             {menu ? (
@@ -152,7 +159,16 @@ const Navbar = () => {
             Avaliações
           </Link>
 
-          <Button title="login" />
+          <div>
+            <a href="https://api.whatsapp.com/send/?phone=18981142927&text=Quero%20fazer%20um%20agendamento%20hoje" 
+               target="_blank"
+            >
+            <button title="Whatsapp" 
+            className=" px-6 py-1  border-white bg-[#16f406] hover:text-[#5bc936] transition-all rounded-full"
+            >Whatsapp</button>
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
