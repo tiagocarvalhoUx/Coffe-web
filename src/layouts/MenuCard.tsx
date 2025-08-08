@@ -8,7 +8,7 @@ interface MenuCardProps {
 
 const MenuCard = (props: MenuCardProps) => {
   return (
-    <div className=" w-full lg:w-1/4 bg-white p-3 rounded-lg">
+    <div className=" w-full lg:w-4/12 bg-white p-3 rounded-lg">
       <div>
         <img className=" rounded-xl" src={props.img} alt="img1" />
       </div>
