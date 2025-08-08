@@ -1,7 +1,12 @@
-import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
 
-const MenuCard = (props) => {
+interface MenuCardProps {
+  img: string;
+  title: string;
+  value: string;
+}
+
+const MenuCard = (props: MenuCardProps) => {
   return (
     <div className=" w-full lg:w-1/4 bg-white p-3 rounded-lg">
       <div>

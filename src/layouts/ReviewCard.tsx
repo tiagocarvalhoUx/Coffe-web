@@ -1,9 +1,13 @@
-import React from "react";
 import { FaQuoteRight } from "react-icons/fa";
 import { BsStarHalf } from "react-icons/bs";
 import { BsStarFill } from "react-icons/bs";
 
-const ReviewCard = (props) => {
+interface ReviewCardProps {
+  img: string;
+  title: string;
+}
+
+const ReviewCard = (props: ReviewCardProps) => {
   return (
     <div className=" flex flex-col w-full lg:w-2/6 bg-white p-3 rounded-lg gap-5">
       <div className=" flex flex-row items-center lg:justify-start justify-center">

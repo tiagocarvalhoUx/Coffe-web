@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+
 import { Link } from "react-scroll";
+import  { useState } from "react";
 import { SiCoffeescript } from "react-icons/si";
-import Button from "../layouts/Button";
+
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 
